@@ -45,10 +45,11 @@
                     <?php   echo $a, ' ', $b, ' ', $c; ?> <br>
 
                     <?php
-                        $a = 10;
-                        $b = 20;
-                        $c = $a + $b;
-                        echo $c;
+                        $a = 5;
+                        $b = 7;
+                        $c = 10;
+                        $f = $a * $b - $c;
+                        echo $f;
                     ?>   <br>
                      <?php
                         echo $d;
